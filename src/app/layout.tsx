@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import logo from "../../public/Logo.png"
 
 export const metadata: Metadata = {
   title: "CODE AND BEYOND",
@@ -14,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
+      <link rel="shortcut icon" href={logo.src} type="image/x-icon" />
       <body>{children}</body>
     </html>
   );
