@@ -28,29 +28,28 @@ function Footer() {
             </button>
           </form>
         </div>
-
         <div>
           <h2 className="text-lg font-bold mb-4">Our Blogs</h2>
           <ul className="space-y-2">
             <li>
-              <a href="/" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Latest Posts
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Categories
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Popular Blogs
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Blog Archives
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

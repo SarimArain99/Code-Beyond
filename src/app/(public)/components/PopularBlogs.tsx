@@ -61,7 +61,3 @@ function PopularBlogs() {
 }
 
 export default PopularBlogs;
-function setpopularBlogs(firstThreePosts: { id: number; title: string; description: string; image: string; body: string; }[]) {
-  throw new Error("Function not implemented.");
-}
-
